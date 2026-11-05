@@ -1,3 +1,21 @@
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.8+repair.test3
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 41014
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/88液态玻璃插件 1.3.8_1.3.8+repair.test3_iphoneos-arm64e.deb
+Size: 23107452
+MD5sum: cf5caa63ad95266f52565c9c704b620a
+SHA1: a02b6c4f880f415854e9ba49a56d13fdc1e649e5
+SHA256: dbb46b15f7ca318f388ef7fbd10147dbc0e40ebe9b99045137d457e862c044cb
+SHA512: f151bbfb84bbd5deddb84c5b5f2c090f2e51567052c4ea5a7d65c89e70fc824044327c578d2cf89d2b64e774096a5e1c1a439a78a449808d0f022ebf205069e2
+Description: 液态玻璃
+Name: 88液态玻璃插件 1.3.8
+Author: 一刀
+
 Package: com.binglan.kongzhidiy
 Architecture: iphoneos-arm64e
 Version: 2.3.6-end
