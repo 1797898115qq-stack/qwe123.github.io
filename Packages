@@ -212,6 +212,24 @@ Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Depiction: https://apt.wxhbts.com/view/9555
 SileoDepiction: https://apt.wxhbts.com/sileo/9555
 
+Package: com.wkk.sileosourcesearch
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 108
+Depends: org.coolstar.sileo
+Filename: debs/Sileo 源搜索_1.0-2_iphoneos-arm64e.deb
+Size: 17600
+MD5sum: ab16385e174ac8582d8ec35ee20f300c
+SHA1: c654c4ee5ae11a26ea5e8c4602645e1ddf4ceedb
+SHA256: c7f553d10e98a7a52f23c2cf8d307ba0c322708d31fd2c41ef437e28102c9c2d
+SHA512: 5f362ff73bfeac215099ddfe6f31221525b21b908b18bb55f4189f9b4ef243e2a4aaf77df77902d4c4833cc40edd69df897797d9bd233ecb77e3d31b58f6a824
+Description: 为 Sileo 软件源页面增加源名称和网址模糊搜索，点击搜索结果可直接进入对应软件源；同时在软件源左滑菜单中增加置顶和取消置顶，按置顶先后顺序排列，最多可置顶 5 个软件源。
+Name: Sileo 源搜索
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
 Package: com.snapbackup
 Architecture: iphoneos-arm64e
 Version: 3.8.11
@@ -1174,6 +1192,28 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
+
+Package: com.exile90.icleanerpros
+Architecture: iphoneos-arm64e
+Version: 7.10.0
+Section: Bootstrap
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: com.exile90.icleanerpro, org.altervista.exilecom.icleaner
+Filename: debs/iCleaner Pro_7.10.0_iphoneos-arm64e.deb
+Size: 982416
+MD5sum: cccfb491b905b843643c46abcebe9a15
+SHA1: 560feaa07e2ee9ef3f919feadc5b1fbeed756202
+SHA256: 282f37f5634d7c2f69880d37edede376239f3c65200e0253ed028dcb562159b9
+SHA512: ee082cd3464f8ab8c9f5e7a33940e41d95f3bf53c580e9647666e13e2dfba7a22e5b0a3927a1cf0620cdbe5ae12440129a03456635e283d33e09712142bc7733
+Description: iCleaner Pro
+ * 垃圾清理工具，启动项管理等
+ * The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi
+Name: iCleaner Pro
+Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
 
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
