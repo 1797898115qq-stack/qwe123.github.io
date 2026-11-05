@@ -35,6 +35,25 @@ Name: Aemulo NFC模拟
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 
+Package: com.sini921.ccborder
+Architecture: iphoneos-arm64e
+Version: 1.1.2-44
+Section: 控制中心
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Filename: debs/CCBorder(roothide)_1.1.2-44_iphoneos-arm64e.deb
+Size: 213152
+MD5sum: f8b47a82dff38a3292c146b535072784
+SHA1: e41bb953e6228631cb64833e406a6c7c3a40b410
+SHA256: 741c183a9d90a0c7a387d2326771ab9b7b47bd6a6cbc1c64fc47f6d7661bf0f2
+SHA512: d40607efca5ba37bad6a6071a5cc361e7a884f856da01f2a9993d5b35ca9bc4b8488579f1df3021bb4524edd6ffc7fa370368650ec52b4b788426295fafbec6f
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Name: CCBorder(roothide)
+Author: fiore & p2kdev & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+
 Package: com.binglan.kongzhidiy
 Architecture: iphoneos-arm64e
 Version: 2.3.6-end
@@ -53,6 +72,25 @@ Description: 控制中心中心美化？
 Name: CCPrimeX
 Author: binglan
 icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.sini921.cozybadges
+Architecture: iphoneos-arm64e
+Version: 2.2-4
+Section: 越狱插件
+Maintainer: NoisyFlake & SINI
+Installed-Size: 496
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/CozyBadges(roothide)_2.2-4_iphoneos-arm64e.deb
+Size: 49100
+MD5sum: 9bbf7a2cdefba64a8c79d49d23e11c15
+SHA1: 290019e72bc473f1f4b1d486c6f4317f50bb6c3a
+SHA256: 96dab1af59f37e0623c27351a701aa608609ed663e6418c3eff3915d9b1f6186
+SHA512: 3f6b5ae4b8a8e227d744ee622cb9cf26d28e766e2bd91366ff950e0851019bb18ce6f3fbaf3071b33d9dc08f617b0057b6499e17d1ca24de1b63fa54aa65eb63
+Description: App的名字变成通知数量，基于开源优化编译适配roothide。去掉了Alderis Color Picker依赖
+Name: CozyBadges(roothide)
+Author: NoisyFlake & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cozybadges.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cozybadges/js.json
 
 Package: com.opa334.crane
 Architecture: iphoneos-arm64e
@@ -211,6 +249,24 @@ Author: Ryan Petrich
 Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Depiction: https://apt.wxhbts.com/view/9555
 SileoDepiction: https://apt.wxhbts.com/sileo/9555
+
+Package: com.rain.raincontainer
+Architecture: iphoneos-arm64e
+Version: 2.9.0-7+debug
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 1956
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.crane
+Filename: debs/Rain的容器_2.9.0-7+debug_iphoneos-arm64e.deb
+Size: 317660
+MD5sum: 0d0fffff7ae0510462a879ff85174647
+SHA1: 41c11800cd1762a143624251be74421f8a3e5fb3
+SHA256: f78e189d155c4fd1371c97689a3241c99a365681546be65b263118b63f050d2c
+SHA512: 7b0549f44397c8bc0c390939212c0acb52c1caaaef28dcd229aadb17641d994547ee8c206bd0cf3d5292b901e243c687038fe337d5d326a2d353830ebd075d30
+Description: 基于 Crane 开发，感谢作者 opa334 编译开发的优秀插件；需安装原版的 Crane 即可生效
+Name: Rain的容器
+Author: Rain
 
 Package: com.wkk.sileosourcesearch
 Architecture: iphoneos-arm64e
