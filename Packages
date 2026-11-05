@@ -35,6 +35,24 @@ Name: Aemulo NFC模拟
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 
+Package: com.flex2areo.appprotect
+Architecture: iphoneos-arm64e
+Version: 2.4.9
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 2648
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
+Filename: debs/AppProtect(Roothide)_2.4.9_iphoneos-arm64e.deb
+Size: 708380
+MD5sum: c30f98d86c04b7dd4663ff1cbdda02b1
+SHA1: f424a7280dac0ef316d3b3a09fa4f3c334c11561
+SHA256: 6c68e07a341aca596355b85e8ab4c7b356fe6fc6aaa1d6bd2708e9d7cfd545ca
+SHA512: e83740ac5be50c3d6a9df71763fc94c0615d0cb4ea1921c343f4231d3c9316183e9012f9c49ab8072af5a92ed76a4e05cd983ad1e4155112073261bb3d92dcb2
+Description: App 隐私保护
+Name: AppProtect(Roothide)
+Author: aReo
+
 Package: com.flex2areo.apptools15roothide
 Architecture: iphoneos-arm64e
 Version: 2.9.2
@@ -188,6 +206,27 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Tags: compatible_min::ios15.0
 
+Package: com.lclrc.exacttime
+Architecture: iphoneos-arm64e
+Version: 2.0.4
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 1284
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Filename: debs/ExactTime通知时间-Roothide_2.0.4_iphoneos-arm64e.deb
+Size: 96872
+MD5sum: d2f2d7f805fe63fbbde930c9a28175a6
+SHA1: 276ef896e4f09faef7d25b2392e25b82be05b98c
+SHA256: d9b9f4f1ea9766c36c65cdcb672393e8e43ae1926ac34aae7b4a4ce81871cba9
+SHA512: b4fa8dbebbfca744944f6a88732573ae2a883bfd1e68ae61bad9feca3a4d049902d9a87c7f96f514bd20bcc9dd9af06ecf6d790aa8f1670c6daa1bfb3d676f1b
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。
+Name: ExactTime通知时间-Roothide
+Author: gilshahar7, SquidForce
+Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
 Version: 5.0
@@ -304,6 +343,25 @@ SHA512: 7b0549f44397c8bc0c390939212c0acb52c1caaaef28dcd229aadb17641d994547ee8c20
 Description: 基于 Crane 开发，感谢作者 opa334 编译开发的优秀插件；需安装原版的 Crane 即可生效
 Name: Rain的容器
 Author: Rain
+
+Package: com.guacforlife.reynarddefault
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Section: Tweaks
+Maintainer: guacforlife
+Installed-Size: 572
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/ReynardDefault_1.5.0_iphoneos-arm64e.deb
+Size: 61564
+MD5sum: 25e7a810aee593d91eb5c41279e80fd9
+SHA1: 0803522a4f0f005bbcfc7c6fa7c2c05b8b8cd3e1
+SHA256: afa2130d8ae78720f564c1d29882d2de5d092600768a2578f457a9de9f75d855
+SHA512: 9743cb87e5d1615949ccc745b6ba7c0d9cbd6c42f24be2dbcc420fdde8c7001d09ca2655beceff5e79f0036e185aec1f84b4c938e4d737311988b5a7968c1f7c
+Homepage: https://github.com/guacforlife/ReynardDefault
+Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings and Control Centre.
+Name: ReynardDefault
+Author: guacforlife
 
 Package: com.wkk.sileosourcesearch
 Architecture: iphoneos-arm64e
