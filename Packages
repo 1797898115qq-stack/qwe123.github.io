@@ -91,6 +91,24 @@ Author: ZengNiu
 
 Package: com.zengniu.splitview
 Architecture: iphoneos-arm64
+Version: 0.7.54
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 1453
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview_0.7.54_iphoneos-arm64.deb
+Size: 406670
+MD5sum: 9632de2857779669004e5a2babd95b49
+SHA1: bccfa541084041f0306e944aa41070906155c6c4
+SHA256: 7ae1d179f350059263212a4519cbca43dfd225f5feb4cb6545d3bdd8b98398f6
+SHA512: 9c69282919eb4b8a1f2fdd40d8573a2e262a1ba7cae6537b5c8f9b3a97a442e394f2330c6caee08e175cff1b2ba49c47b67ff5349cb2ef86756ef95353f4bea1
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
 Version: 0.7.66
 Section: Tweaks
 Maintainer: ZengNiu
