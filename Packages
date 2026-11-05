@@ -1065,7 +1065,7 @@ MD5sum: 4b4daafd02f37b6202a6623a13826f83
 SHA1: ab41f9dc8b47547bf3000dfa2b7d0ef847bc8271
 SHA256: e3ea2fe7152138019ea7020075513058783a98bf683f917dd7efa84bd87b3444
 SHA512: 5bcd67ee33887615e134e9ed60381c46c1435af947489a5972b854bf17e68c0f047682a367700987e7a8fc3a9423d5e21d865dcb85f2cbab97d785bd49ae9866
-Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Description: 免授权
 Name: AppTools15-17(RootHide)
 Author: aReo
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
