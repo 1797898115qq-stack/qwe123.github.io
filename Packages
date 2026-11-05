@@ -1522,6 +1522,23 @@ X-Drawer-70: app-landscape.native-fullscreen.restore-display.drawer-return.defer
 X-Drawer-71: mirrored-inner-corners.palette.gradient.background-alpha.icon-shadow.video-canvas.1
 X-Drawer-72: legacy-controls-retired.no-hidden-hit-targets.arc-drawer-preserved.1
 
+Package: com.t4mag0.safarimodernizer
+Architecture: iphoneos-arm64e
+Version: 1.0.1+ios15.5.rh1
+Section: Tweaks
+Maintainer: T4MAG0
+Installed-Size: 800
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.t4mag0.safarimodernizer_1.0.1+ios15.5.rh1_iphoneos-arm64e.deb
+Size: 192486
+MD5sum: e3964da4a0bb091865993483e4ea5016
+SHA1: f6b6900ae68d1569a18de3c1e5e395e420f8bffd
+SHA256: 8f03c87913eaa3e597648f637934b73bf9d061fb2574ab51a7562d5303e2b230
+SHA512: 7b9c040233933690dfd0c9640fd700ba482c0d65101e2f551b14d1a11afaadd0f1514cb639ad826ef0cad553516e250d6d74f5c16c2a6dd576cd908bfb4da93e
+Description: Unofficial iOS 15.5 / RootHide compatibility rebuild of upstream 1.0.1. Makes newer websites work and look modern in Safari on iOS 15. Adds modern JavaScript and web features, rewrites modern CSS, works around Safari 15 security-policy bugs, runs sites that need import maps, and identifies as Safari 18.6 so sites send their modern pages. Hold two fingers on a page for 2 seconds (or add #smdebug to the address) to open the log and per-site settings.
+Name: SafariModernizer
+Author: T4MAG0
+
 Package: com.zengniu.splitview
 Architecture: iphoneos-arm64e
 Version: 0.7.47
@@ -1799,6 +1816,23 @@ Description: 仅对桌面长按菜单、锁屏播放器和锁屏通知应用 iOS
 Tag: role::enduser, purpose::extension, cydia::requires-respring
 Name: 文字深浅切换
 Author: 夜辰
+
+Package: com.local.batteryscout
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Utilities
+Maintainer: Local
+Installed-Size: 175
+Depends: firmware (>= 16.0)
+Filename: debs/耗电检测.deb
+Size: 26484
+MD5sum: 61ee6bd22c6d2e71dee495c1fc69273c
+SHA1: 330b7046d0add84286988009732e2c09730cf8b5
+SHA256: ee906a0f2126e60dfa98e4ce3f88710dfe71c3d2a36cd36cd0457226d7269b58
+SHA512: e65d08516c9e138060d6a2cab3eaf1949d32c1d603f20fd48f4e064708d9e75c5fce631ef5b93950beadaae86f54d6d76c11c07799eb55a193ccfb9051dba8d0
+Description: Local app and jailbreak process activity monitor with tweak candidate host diagnostics. Host activity is not per-tweak measured energy.
+Name: 后台耗电侦测 BatteryScout
+Author: Local
 
 Package: com.ntm.notifymanager
 Architecture: iphoneos-arm64e
