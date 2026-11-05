@@ -15,6 +15,40 @@ Name: 词库桥接
 Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
 Author: wm0104
 
+Package: com.mowang.neicunyouhua
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Section: Tweaks
+Maintainer: AutoMemGuard local project
+Depends: preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.crctdd.memtrim
+Filename: debs/com.mowang.neicunyouhua_0.1.6_iphoneos-arm64.deb
+Size: 33704
+MD5sum: a4f897d392fbbcaa4b178e4d8632fa4d
+SHA1: 4ce5f4881cf33023690068dc6cd15efd36e93e2d
+SHA256: f94197d5a37590c759600c81817bf843767008ea04b3dbf6efc022e6759e6525
+SHA512: abb9d815f702c9d72738c941c38fe0866188640e927b9bdf8022a2a44e94e5af328bc07d98e6391f7358a1894ed0001ea22e0834bd2e4f63f070afcf9dca47d0
+Description: Automatic low-free-memory monitoring with guarded reclamation and Settings controls.
+Name: AutoMemGuard
+Author: AutoMemGuard local project
+
+Package: com.mowang.neicunyouhua
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Section: Tweaks
+Maintainer: AutoMemGuard local project
+Depends: preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.crctdd.memtrim
+Filename: debs/com.mowang.neicunyouhua_0.1.6_iphoneos-arm64e.deb
+Size: 25868
+MD5sum: 91176074fdb9b3234e0a79e56c9e4ae8
+SHA1: 67d1bb53320b98dd427e0c36859955246a841183
+SHA256: 5bfe5c1695cbbfaaaca4069a7f9181ca3ffb3b1be5aa8d020abe7056f841a53a
+SHA512: 18b50fdc7ea29a93f1dea765ebcd243e6fb6423b02900512cd62da4c5b40d1e9eaa6ea960dc29031d322d16bcc379df1476a110428643c149523ca7831fcb86c
+Description: Automatic low-free-memory monitoring with guarded reclamation and Settings controls.
+Name: AutoMemGuard
+Author: AutoMemGuard local project
+
 Package: com.netskao.ccsim
 Architecture: iphoneos-arm64
 Version: 1.1-17
