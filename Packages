@@ -35,6 +35,43 @@ Name: Aemulo NFC模拟
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 
+Package: com.flex2areo.apptools15roothide
+Architecture: iphoneos-arm64e
+Version: 2.9.2
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 5536
+Depends: mobilesubstrate
+Filename: debs/AppTools15-17(Roothide)_2.9.2_iphoneos-arm64e.deb
+Size: 2388736
+MD5sum: e25cd6c1582db11e4aa38cb0b2d8d971
+SHA1: d4e3e759db1fd3a3dd2c755c3aefab9d0828b604
+SHA256: 95e15bda53298e6d6be328c9a941295023bba664046e860664dd5900328b5b31
+SHA512: a62816e4004ede72b898180bb0b55fcd1ddaa37143f7c54ec0c1cf7dbd83cf48cd9b90dd2db90170dffd8aa5593388fb7e5d787f0d6deff0c5959fef49a40f87
+Description: AppTools for iOS15-17 Roothide
+Name: AppTools15-17(Roothide)
+Author: aReo
+
+Package: com.anthopak.appaze3
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1802
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 15.0)
+Conflicts: com.anthopak.appaze, com.anthopak.appaze2
+Filename: debs/Appaze 3_1.0.1_iphoneos-arm64e.deb
+Size: 876936
+MD5sum: 7ae47f88f3fc28089fcc54b387c8c18c
+SHA1: 4e8a616a5924b82981b75c3cf7a302d56b3b4114
+SHA256: c68627dd560462f86ca8d67d541f2ffceb2a856488c25f04b35e98ce9fdc9c35
+SHA512: 77416a6916009614d49f5c9c068a80770253092edcc12e8d1676166a8ce593b8e09529139b64526d9d54beb11b52d6175e84c3227570ba666805c927b4c635e7
+Description: 正版砸壳，在干净友好的用户界面中，为每个应用程序自定义多达30个设置，易于访问！
+Author: AnthoPak <anthopakdev@gmail.com>
+Name: Appaze 3
+Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
+
 Package: com.sini921.ccborder
 Architecture: iphoneos-arm64e
 Version: 1.1.2-44
@@ -1271,6 +1308,23 @@ Name: iCleaner Pro
 Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
 
+Package: com.roothide.lockdown
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/lockdown_2.0_iphoneos-arm64e.deb
+Size: 5376
+MD5sum: 6f4c19de3932a7c6975331638004ba33
+SHA1: 46f1c3cef01690ad79decd1fda03fab832c78797
+SHA256: 422c1b0497723663581d84db30b9408b81f0abd749bdbcaee3a335f904e5a856
+SHA512: f8ab5e0071e361015c32eba45472696e75d00e31a3ce830304fcae56d23219a6df5f46bb02c35e0a49cf4eeaef791c83e1504d6f63adc2d4261e10e1909703a3
+Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
+Name: lockdown
+Author: roothide
+
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
 Version: 7.0.5
@@ -1306,6 +1360,49 @@ Description: 仅对桌面长按菜单、锁屏播放器和锁屏通知应用 iOS
 Tag: role::enduser, purpose::extension, cydia::requires-respring
 Name: 文字深浅切换
 Author: 夜辰
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64e
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/通知管理_2.3.50_iphoneos-arm64e.deb
+Size: 111888
+MD5sum: 96043825d30afab2a9582b7970f0bc07
+SHA1: 04c1b56e746e204d5cf2c4383166ee5eb1532fa8
+SHA256: 819134e8f6e317d88c3f36e624176cc51ed559d08e7984946c36214171a89b10
+SHA512: 96a49c9ed4df4d459ab743837cae9c9a00a957e6cfe2ca164f6d3d93af21d6a39a867791ddaca3c18714cfac64ee2b0860337a43d12e16c5099cd92f31571853
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+Firmware: >= 14.0
 
 Package: com.gu.xianyupick
 Architecture: iphoneos-arm
