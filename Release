@@ -1,19 +1,16 @@
-Origin: 牛马源
-Label: 牛马源
+Origin: 
+Label: 
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 牛马源
+Description: 
 Support: https://1797898115qq-stack.github.io/qwe123.github.io/
 Icon: https://1797898115qq-stack.github.io/qwe123.github.io/CydiaIcon.png
 MD5Sum:
  aa41c4c7c0e67824f72cfb061e00b054  130875 Packages
- 44a6d2a099adba2a329ec823e325e72b  43887 Packages.gz
-SHA1:
- b8e5bb9d1e03752b0381fbe4f049bd4c3b37843e 96188 Packages
- 0bf12f2bbb6501b4955031ea4bc9d6d791706a54 29111 Packages.gz
+ f9714c4c596bf6401744ca1a7c055416  43887 Packages.gz
 SHA256:
  2f8e850f26d635c6c17196b9efb1d82ea7903b51b7e072e75e39ab785dd1c370  130875 Packages
- bf8a6a3288821608d0f91202540dffb47376fd3295ca6c4794ea1cd0e2f215c5  43887 Packages.gz
+ a0e0cb959d0693f8eeae5cd66ef1c359c3f13c816a9c6a82e8b257b11767c97c  43887 Packages.gz
