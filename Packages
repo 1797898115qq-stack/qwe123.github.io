@@ -155,6 +155,31 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Name: Appaze 3
 Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
 
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Section: Tweaks
+Maintainer: evgeniy558 (Original); Simplified Chinese resource merge
+Installed-Size: 17045
+Provides: com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader, com.opa334.ccsupport (>= 1.2), rootless-compat (>= 0.9)
+Conflicts: com.local.controlcenter18.fullchinese, com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Replaces: com.local.controlcenter18.fullchinese, com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Filename: debs/CC18_0.3.1_NoEasterEggs.deb
+Size: 2146056
+MD5sum: 2a71ee27111f10cd0641f041edde69bc
+SHA1: 23607d9a3dee041c308498a4459c9316553edeb6
+SHA256: 7edfa73e89cb738c0c216561a7b5374b3e8965f1e98b3ec358617c1e68674e8c
+SHA512: 49fc43179f33414b68ad4a3cdb9e8dc17f9cb68649036c597f4d764142eb82e510260d316d3a63f2ef1c106bc05ab7026d0ea415e523c093808dd0e73d996806
+Description: ControlCenter18 简体中文整合版，适用于 iOS 16–17 的 iPhone。
+ 将原版控制中心功能与简体中文界面资源整合为单个安装包，保留原版动态库、手势、模块与设置功能。
+ 原作者：evgeniy558；中文资源由语言包合并。当前为 Beta 版本，请先备份原配置。
+Repo: https://repo.ya-ebal.mom
+Name: ControlCenter18 简体中文整合版
+Author: evgeniy558
+Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
 Package: com.sini921.ccborder
 Architecture: iphoneos-arm64e
 Version: 1.1.2-44
