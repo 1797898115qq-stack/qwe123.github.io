@@ -180,6 +180,31 @@ Author: evgeniy558
 Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
 SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
 
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Section: Tweaks
+Maintainer: evgeniy558 (Original); Simplified Chinese resource merge
+Installed-Size: 17045
+Provides: com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader, com.opa334.ccsupport (>= 1.2), rootless-compat (>= 0.9)
+Conflicts: com.local.controlcenter18.fullchinese, com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Replaces: com.local.controlcenter18.fullchinese, com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Filename: debs/CC18_0.3.1_repacked.deb
+Size: 5042704
+MD5sum: 6ce86377f360ba00ad8b1adc52bb252d
+SHA1: 0c2baf65ab8125ebe35e36816caf5d106024616d
+SHA256: 915e0a0fadce2861599501d23891ff30fc85b40d22c9f06535ff15675e98c66f
+SHA512: a7607d66dc984d1701a0f6a880ee68f90aee10313774378cbe41df5f81b36096fd197246daad72ba886e8edd547730d2c812e40777a69610d75ab024f276a014
+Description: ControlCenter18 简体中文整合版，适用于 iOS 16–17 的 iPhone。
+ 将原版控制中心功能与简体中文界面资源整合为单个安装包，保留原版动态库、手势、模块与设置功能。
+ 原作者：evgeniy558；中文资源由语言包合并。当前为 Beta 版本，请先备份原配置。
+Repo: https://repo.ya-ebal.mom
+Name: ControlCenter18 简体中文整合版
+Author: evgeniy558
+Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
 Package: com.sini921.ccborder
 Architecture: iphoneos-arm64e
 Version: 1.1.2-44
