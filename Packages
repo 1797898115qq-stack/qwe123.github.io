@@ -143,6 +143,27 @@ Name: 曾牛-分屏🐮
 Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
 Author: ZengNiu
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2-3+deadlockfix1
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ellekit_1.2-3+deadlockfix1_iphoneos-arm64e.deb
+Size: 127108
+MD5sum: b0ee5ac505e4510cb98ffb328d2ad730
+SHA1: a47b296684cbd247231abeaf3e4dbf210c9a0c29
+SHA256: c14e13ed54ee7025a9bf791f75cbd06e20e593703e4fe3a607ff1880078bc86c
+SHA512: 748ebf3005d43ce56ff252a8688ac20fab30de0ad1ba5d730896179c7abd7e08aa7ad0dce85610ceb642933652129600abf7bffafa44018e963e456b2c38dd01
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: com.gu.xianyupick
 Architecture: iphoneos-arm
 Version: 1.9.1
