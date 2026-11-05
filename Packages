@@ -35,6 +35,48 @@ Name: Aemulo NFC模拟
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 
+Package: com.bvn.splitnative.r2
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: BVN
+Installed-Size: 442
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), com.bvn.airaw-r2 (>= 1.7.0)
+Replaces: jp.dcsyhi.airaw.splitnative
+Filename: debs/Airaw Split View Native (Roothide)_1.0_iphoneos-arm64e.deb
+Size: 29752
+MD5sum: d0f86666144964c8d85a1c3c02faf9fa
+SHA1: c4adea64d3b690bd150ba72969417da0f745ed36
+SHA256: 3d03e3d6e1d7effa5baf46d4d8048010acd4ffb339e8797e8fb085e8d90eb449
+SHA512: 356a90e8a8c749f9db2921d4e18d82c91ea3448e5f4d565119516124b40d9773783a06e90d9f784969c61aa0da5f0d73f156732816f5af70b92edaa726cb1a59
+Description: Split View cho các ứng dụng CarPlay gốc (Bản đồ, Âm nhạc, ...). Yêu cầu Airaw và iOS 16+. Cài đặt chỉ mở từ Airaw.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Native (Roothide)
+Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/AirawSplit.json
+
+Package: com.bvn.splitstandard.r2
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: BVN Repo
+Installed-Size: 408
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), com.bvn.airaw-r2 (>= 1.7.0)
+Replaces: jp.dcsyhi.airaw.splitstandard
+Filename: debs/Airaw Split View Standard (Roothide)_1.0_iphoneos-arm64e.deb
+Size: 20928
+MD5sum: e1302099aaac9970611bc3b864e7dfb4
+SHA1: 4b0da98dacc6cc177f7643b55fbc5ade739e43ac
+SHA256: fce50505f5bb668db9714a8ee9518ae1112d1dde9894d87eb724d182cbd39559
+SHA512: 6d209105a28c59ce42f1092a915c72a7c6078cda207508fc8f9330c06ec2cc52199e768d41004d85e88bbbfa3bdce9f56d3253ba89271c329447df3dfd538da6
+Description: Split View cho các ứng dụng CarPlay không gốc (CarCast / CarBridge). Yêu cầu Airaw và iOS 16+. Cài đặt chỉ mở từ Airaw.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/splitstandard.json
+Name: Airaw Split View Standard (Roothide)
+
 Package: com.flex2areo.appprotect
 Architecture: iphoneos-arm64e
 Version: 2.4.9
@@ -127,6 +169,47 @@ Description: 控制中心中心美化？
 Name: CCPrimeX
 Author: binglan
 icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.bvn.carcast.r2
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: BVN Repo
+Installed-Size: 2374
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), com.bvn.airaw-r2 (>= 1.7.0)
+Conflicts: com.leftyfl1p.carbridge13
+Replaces: jp.dcsyhi.carcast
+Filename: debs/CarCast VH(Roothide)_1.0_iphoneos-arm64e.deb
+Size: 1516700
+MD5sum: 27893fea8de4ec0b4e9a7fed8364a91b
+SHA1: 2bfed0a5e8119b35bc8d5c6572fe90690b20d37d
+SHA256: 1cb448f070ad80209c3675013f6d5439d96f9edbc039639616a29463e6bbea11
+SHA512: e1133c647a47a42b060861841fb4677ac5ba45ec2da3f10dbdd3a7eb22c970fff94caf7efd7653837dc3e5bfd71c680e33493de4e3965302d0fb035c2f2a6db1
+Description: Ghim các ứng dụng không phải CarPlay vào bảng điều khiển CarPlay. Yêu cầu Airaw. Đã thử nghiệm trên iOS 17 và iOS 26. iOS 17+.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: CarCast VH(Roothide)
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/CarCast.json
+Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+
+Package: com.crctdd.choicy-whitelist
+Architecture: iphoneos-arm64e
+Version: 1.5.4-11
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 748
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Filename: debs/Choicy-Whitelist_1.5.4-11_iphoneos-arm64e.deb
+Size: 156992
+MD5sum: 445a9b9fa3f2080b1ce1bc1fa09ba4c8
+SHA1: 899cd2ad48b5d239083647783c9f0c6de59cc621
+SHA256: 20a856a35244bd333a00a415dd36e38dcb7d10be20985ff4db1e7ce6a090e651
+SHA512: 7bc210b94a78d11ca6c27be5cd0e21136b308bdfe7302fd51cbc8fc97857c2a2cb4969801267029ddf5f2e0148e3513fb675335e7c62e850183ecc66a785cf16
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Name: Choicy-Whitelist
+Author: crctdd
 
 Package: com.sini921.cozybadges
 Architecture: iphoneos-arm64e
@@ -363,6 +446,43 @@ Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings a
 Name: ReynardDefault
 Author: guacforlife
 
+Package: com.crctdd.sbtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.15
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/SBTrim_0.0.15_iphoneos-arm64e.deb
+Size: 73076
+MD5sum: b8fb99fa64ff273fbef754296bc700f7
+SHA1: ea015be67d2697807025a3009dc3567f46a3f6de
+SHA256: 7b448ff8961534ba422448b7b87060aea4e5009ca092cbad3e7ad6202cd5c631
+SHA512: ae1802a2b62a41b4f1adf3aed665aca7df904f94cafc8bbc1ada5f5bcbe061fc849069d260c073a2cf06c8b9aecefec5d8072654dbabe682d0524e16b607b3ea
+Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
+Name: SBTrim
+Author: crctdd
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.4
+Section: rootless应用插件
+Maintainer: 来了老弟
+Installed-Size: 1092
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/STTool_4.4_iphoneos-arm64e.deb
+Size: 471984
+MD5sum: 14d4a1e7ef771f10e07c0a62cf05d020
+SHA1: 204f96e322277429e50e91b5506b2300b038e4e6
+SHA256: d57e0b4e6faead28e4caf0570874090be5b2899b2b0561f8bc6f474dbb303ce6
+SHA512: bedd83c77ba8c2756720b40ffb2fb9bdd780ffe4fdd3b46aa5bcbf650cc13897e1ef86cf0bdd98750655549b759690067d7a4b08aeeb103abd9cd091ae903bfd
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: com.wkk.sileosourcesearch
 Architecture: iphoneos-arm64e
 Version: 1.0-2
@@ -485,6 +605,26 @@ Description: iOS 26 style Lock Screen widgets
 Name: Soko
 Author: waruhachi
 
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/SquidExtender(激活码版)_3.7.4_iphoneos-arm64e.deb
+Size: 4400352
+MD5sum: da6c814c64bfcfdc3eb1f60f5bcf3635
+SHA1: f114a5fb8ff6ca0b81e5958e39dc24c7ddf69e03
+SHA256: 0ef15e5fcdca66e246612d8147e3bf97dcea45cf78b418f516aa0837fbef8627
+SHA512: 7e6a9c14406e344ca028cd5ed6e2b9babb6ac629c49a858b076ccb2db05340686dae3703983987ea809fd93a565c36da48d731368fc1ab36ca5fb043e4332307
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
 Package: com.wkk.systembox
 Architecture: iphoneos-arm64e
 Version: 1.5-8end
@@ -542,6 +682,50 @@ Description: Convert supported tweak packages for RootHide custom firmware.
 Name: Umbra Patcher
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
+Package: com.axs.voidy
+Architecture: iphoneos-arm64e
+Version: 1.0+roothide
+Section: Tweaks
+Maintainer: xsxs18
+Installed-Size: 1016
+Pre-Depends: rootless-compat (>= 0.9)
+Recommends: uikittools
+Filename: debs/Voidy 清理工具_1.0+roothide_iphoneos-arm64e.deb
+Size: 299776
+MD5sum: d78c28ac4fe8c23c8cb3ab7fc2caecf2
+SHA1: b0c8e003787438a67fbc862555a8f1f954fc7c33
+SHA256: 4ea64ebcc79562238e2c746497705ba6b459c55c76057dd11b03d27dd5f3915a
+SHA512: 533bdcc02c3384441f1e145efa650892b967c15d1a10519a714e2626e4effc23635bbf6f84b012cd6023a5642493a5f57b6c33a9ac45edc2d3eca405fc2a4d61
+Description: 这是一款轻量级系统清理工具。
+ 1. 清除缓存、日志、临时文件和软件包残留，进行管理
+ 2. 调整与启动守护进程，查找大文件和孤立的软件包
+ 3. 可以按预定时间自动清洁。
+Name: Voidy 清理工具
+Author: xsxs18
+Icon: https://axs66.github.io/pro/icon/voidy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/voidy/js.json
+
+Package: com.brend0n.volumemixer
+Architecture: iphoneos-arm64e
+Version: 0.0.7~beta3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1016
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/VolumeMixer_0.0.7~beta3_iphoneos-arm64e.deb
+Size: 178156
+MD5sum: cc586fe096050b5cd90974f1d4e0710f
+SHA1: 4c22b9eaaaed8594bf3b01191e60d0eb2c7047c8
+SHA256: f477cd1067ebc4f4c6c21bb4963bb3b803db04b415bf895873bf215afa4371f7
+SHA512: 82f91f9ff6ff65c38a6fbb21b77159ce94edf4a32dbed38abe5c207ea6b09579fcb2d4041f9ee4e3d7ffc1d7048acd29e45d4c18ec5e96371b43b4758aaaad7d
+Description: Volume control for individual app
+Name: VolumeMixer
+Author: Brend0n <brendonjkding@126.com>
+Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.volumemixer/depiction.json
 
 Package: zp.aemuloqs.rootless
 Architecture: iphoneos-arm64e
@@ -1383,6 +1567,23 @@ Author: Ivano Bilenchi
 Name: iCleaner Pro
 Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 780
+Depends: firmware (>= 15.0)
+Filename: debs/insulation_0.1.38.1_iphoneos-arm64e.deb
+Size: 57096
+MD5sum: 135edfa1853a748fa103e5d010beb818
+SHA1: cca3126076922af9cd01a4335d5606c8e700a61d
+SHA256: a7bee2373fc342fba6ede6f1d992d3a9dea73ba2da8cfbe139d9afa92a05ce55
+SHA512: 2adee7f5571ceecb90dd6ebad44b8df0e085ed69cb6a7e542672a5e1a645a18d292e667df73491b37bd3e17cd28a0f2344d8942b6c851c80e7bd33ecdd68a5cc
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: insulation
+Author: be-huge & doimty
 
 Package: com.roothide.lockdown
 Architecture: iphoneos-arm64e
