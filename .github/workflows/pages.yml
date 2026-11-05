@@ -34,8 +34,8 @@ jobs:
           dpkg-scanpackages --multiversion debs /dev/null > Packages
           gzip -n -k Packages
           bzip2 -k Packages
-          printf 'Origin: 玩机源\nLabel: 玩机源\nSuite: stable\nCodename: sileo\nArchitectures: iphoneos-arm64 iphoneos-arm64e\nComponents: main\nDescription: 玩机源\n' > Release
-          printf '<!doctype html><meta charset=utf-8><meta name=viewport content=width=device-width><title>玩机源</title><h1>玩机源</h1><p>添加此地址到 Sileo。</p>' > index.html
+          printf 'Origin: 牛马源\nLabel: 牛马源\nSuite: stable\nCodename: sileo\nArchitectures: iphoneos-arm64 iphoneos-arm64e\nComponents: main\nDescription: 牛马源\n' > Release
+          printf '<!doctype html><meta charset=utf-8><meta name=viewport content=width=device-width><title>牛马源</title><h1>牛马源</h1><p>添加此地址到 Sileo。</p>' > index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
