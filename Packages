@@ -1325,6 +1325,29 @@ Description: JSC security hardening for WebContent process. Configures JavaScrip
 Name: lockdown
 Author: roothide
 
+Package: com.lenglengyu.passbyccs
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: 控制中心
+Maintainer: lenglengyu
+Provides: com.lenglengyu.passbycc
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: com.lenglengyu.passbycc
+Replaces: com.lenglengyu.passbycc
+Filename: debs/临时绕过面容 PassbyCC_1.0.2_iphoneos-arm64e.deb
+Size: 96060
+MD5sum: 290ca0f39c860b1ef0f93cec5830b2a4
+SHA1: 666a20274151cf8a253cd0228ec5c7eab2e9c59b
+SHA256: 4ba7e7d2a6f4521366fea472e8ff844eaa72f5267a4218c49ad6d807a88f86ec
+SHA512: ddbc62a40858d2d816729cb69d884ea4c1e818c7a00021af08d0b203ea156b2aec7b339df21f7e2c0cf3fd167524cd4f3a3385f4308d7a5e3df9916e7be82e18
+Description: 控制中心模块，临时绕过面容，绕过密码解锁，修改为 FaceID 图标。
+Name: 临时绕过面容 PassbyCC
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/js.json
+icon: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/icon.png
+
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
 Version: 7.0.5
