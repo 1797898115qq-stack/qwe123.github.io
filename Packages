@@ -504,6 +504,24 @@ Name: SystemX
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Section: Tweaks
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/TrollOpen_1.3.7_iphoneos-arm64e.deb
+Size: 1129528
+MD5sum: d6ed9ef0647df220db12759ed16ef4a0
+SHA1: 8811c343acd1c3569de952b5637d96d6cbf7b303
+SHA256: 2fcb1bf419093e6079f8c561ae58e1dd80853d5ae5114ad7e34a093221332d60
+SHA512: af38dbd3e776d5824edabf0b6cd4ebd8e9d2566ff1061655c8f2a53bc59921bcab2fe019dee2b6ef528f6bfebec4ded37b012f927692bbff72983449ef471eaf
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Name: TrollOpen
+Author: Charlie Leung
+
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
 Version: 3.0-2
@@ -1382,6 +1400,24 @@ SHA512: f8ab5e0071e361015c32eba45472696e75d00e31a3ce830304fcae56d23219a6df5f46bb
 Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
 Name: lockdown
 Author: roothide
+
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64e
+Version: 1.0.12
+Priority: optional
+Section: 辅助工具
+Maintainer: colorblack
+Installed-Size: 1088
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/wifi 锁屏不断连 roothide_1.0.12_iphoneos-arm64e.deb
+Size: 310944
+MD5sum: 429f745e8a21b175054fd4a82aaacad3
+SHA1: fab433ade2af579aa0f7eb96faf3d1603d069024
+SHA256: 1d58a6e7cfa13b2a33eadda3b66c366cd6f9222110f4d1a372b183288f0bcee3
+SHA512: 07f9e25539dede14c5dc8c663b9a514d412508975a8e05c3b33741401c8d7bb6980f71f236cb9a0a10f718875bb9de8a65fb75103f8eae2cee8645866e86cde8
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连 roothide
+Author: colorblack
 
 Package: com.lenglengyu.passbyccs
 Architecture: iphoneos-arm64e
