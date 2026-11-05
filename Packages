@@ -1,3 +1,22 @@
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64e
+Version: 2.3.6-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 8024
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/CCPrimeX_2.3.6-end_iphoneos-arm64e.deb
+Size: 3733312
+MD5sum: 9a9ea119340306a8ec9453a3b5a204d6
+SHA1: 374e04bf2090e35f87f2093541f0a29080e93e5e
+SHA256: 96766819bf156c9a5fed8412c60647ffb935602e342df81b9c8728f6df57bccb
+SHA512: 6ba4d64339aacaca768c5ce98f059307e350428c453ce02aee1db72a3ec9900618bbc7748c199f172bd547420ba00458eb5feb962435f5c5b5f32aaed70084cb
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
 Package: com.wm0104.keybridge
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -14,6 +33,64 @@ Description: 为苹果原生中文键盘接入本地 Rime 词库，支持 26 键
 Name: 词库桥接
 Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
 Author: wm0104
+
+Package: wiki.qaq.umbra.patcher
+Architecture: iphoneos-arm64e
+Version: 3.0-2
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), bash, coreutils, findutils, grep, sed, libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/Umbra Patcher_3.0-2_iphoneos-arm64e.deb
+Size: 882200
+MD5sum: ec722a4626ac6e5f5b4c0f3b0703ab5a
+SHA1: c67747384eb796dc989199afa8142b2318fe7024
+SHA256: 4e0bf9fb66b50347796b3156390dff1f84df76128f9cecdb3adc5758c4658bc2
+SHA512: 22d781a7bca3d99b1b1eb6c07bdf9c00c60139da425e2df74835272c235e5b8418796f480b7d6f38e13e06721c309f12a8509daa9d5dfccf10406a7ca1b028b9
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Description: Convert supported tweak packages for RootHide custom firmware.
+Name: Umbra Patcher
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
+Package: zp.aemuloqs.rootless
+Architecture: iphoneos-arm64e
+Version: 1.0.0-3
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/aemulo快速启动 - rootless_1.0.0-3_iphoneos-arm64e.deb
+Size: 3104
+MD5sum: b45851f835fecd71889c141b2c7575b1
+SHA1: 9aa0101c26f8e3e389fbd5adf8cb1484b0ccb1f5
+SHA256: 1303b5f4a12f274cf36c1c15510639ab7d68e74692927e485355944a460b8b3a
+SHA512: e1f58ebd2f012fed2fb19acb3e4e36c55bb153d804c082a64d42a453f322bb92b432e51ffc72257b87832bed45a2c896b9719299fe28e4da6aa2b30002d1920c
+Description: 锁屏界面解锁后双击手电筒或相机按钮,桌面双击或上滑分页小圆点!
+Name: aemulo快速启动 - rootless
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloqs.rootless
+
+Package: zp.aemuloauto.rootless
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/aemulo自动模拟 - rootless_0.0.1_iphoneos-arm64e.deb
+Size: 4092
+MD5sum: f140a2d0f9cda14b88897a75afa0e164
+SHA1: f5e09637a69072182a386d7e59acc6fbd95b2f8f
+SHA256: d973b181eb99ad0c006e6d9230f0f589ef0895f360627bcd25db1797cfeb797a
+SHA512: 686fd49f726dd6c5c9d88b93334e0955c80fdf64f85ffa3c5f510d9c3a387998bc18b2918040661d8349f27226937ee7383fc0a8c30878f75ce5375c0356ef86
+Description: 先在模拟界面保存标签!
+Name: aemulo自动模拟 - rootless
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
 
 Package: com.mowang.neicunyouhua
 Architecture: iphoneos-arm64
