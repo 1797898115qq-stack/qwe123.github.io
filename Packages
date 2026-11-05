@@ -1,0 +1,71 @@
+Package: com.wm0104.keybridge
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: 键盘增强
+Maintainer: wm0104
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/KeyBridge_0.0.1_iphoneos-arm64e.deb
+Size: 203108
+MD5sum: 0f8322bb3caccbb8f9eda9fe457ebcd2
+SHA1: 8c59ebcce3cd8282a15db3d288aef881e0ac9cb9
+SHA256: 95661479568d4c893153c742b9a9663d1bfe8dd0756c931cabaea96b238b8951
+SHA512: bb6b81a6882eeffef568700c00fb7d0d2bce9fce9549dc135d6284ff139ca9d1eb1a3c2111a6fbf4c45047e0a4b467c1501e1f0f3d1554ecee9238a67d5ebc5c
+Description: 为苹果原生中文键盘接入本地 Rime 词库，支持 26 键全拼与九宫格。兼容测试范围：iOS 15.0–16.x；目前仅在 iOS 16.3（roothide）真机验证。特别感谢 i_82（Apelin 作者）提供的开发支持。
+Name: 词库桥接
+Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
+Author: wm0104
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.7.54-1
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 763
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview_0.7.54-1_iphoneos-arm64e.deb
+Size: 229344
+MD5sum: 2179a711a18cc461bd5a1adbce4a41d3
+SHA1: 625ec50bc8f4d78cffe1d645997312616a77ecf3
+SHA256: f938422f299972eccd53e306fb431295db2967505bf3e24ca10eeec98f81f99f
+SHA512: 36b42ba7011102682561405bf5bf9613c5881e4461b5bb436cbee3448d10ec27596b52eb023ace31eca95223e4913a647da8187860de2f4f81dffb8d28d564ec
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
+Version: 0.7.66
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 1554
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview_0.7.66_iphoneos-arm64.deb
+Size: 460784
+MD5sum: 7ea55704eda85e2742a822478a39450e
+SHA1: b4903888f9b39f92288356816ae7455f8d6e4844
+SHA256: a29f7d1063fb8509e1a62e458ae8cd0c13d31f3f33530782a7f624026dda7221
+SHA512: 0738590a84dbf9b73aa3ebdb7f828edfe259d3aa92bc120e9bbaf985e8e977bf46fef6d0de0164926156cb4b1c55ab5e8fde30b1ec6a11a0c8467bfe9775cc6f
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.7.66
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 816
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview_0.7.66_iphoneos-arm64e.deb
+Size: 303210
+MD5sum: d985c90da0b6a8946073e6e19c9b480a
+SHA1: 8c509e3d35c0bbed883436d7edbe70da942a2478
+SHA256: 5684c1abc85ec5a42db219b115539702a65d32f2fe04c581239ec3d99e6b6db1
+SHA512: e93a8dca232ae3dd8a3f3853d8829a5d952399937c12bdeb089e24368707016e2ff052a7d7f61e6e8c5264f15538f4d86e183cbf19742ea13fccc14ef873cc84
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
