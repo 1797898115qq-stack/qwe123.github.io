@@ -1,0 +1,22 @@
+Origin: 玩机源
+Label: 玩机源
+Suite: stable
+Codename: sileo
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 玩机源
+
+MD5Sum:
+ 04648509f5d5d582ed410e43688e108a 96188 Packages
+ 905553caa363c61ceaf8eba1f7926cbf 29111 Packages.gz
+ 6cbb487c2e2d50c3b191fbce806837c2 26722 Packages.bz2
+
+SHA1:
+ b8e5bb9d1e03752b0381fbe4f049bd4c3b37843e 96188 Packages
+ 0bf12f2bbb6501b4955031ea4bc9d6d791706a54 29111 Packages.gz
+ 60be8fef77037099c26b6bb1dd1c446ed0c78ee1 26722 Packages.bz2
+
+SHA256:
+ 896075b1258490ff4f61574d21e59d1c88964f7e20904c49debb4963274069ec 96188 Packages
+ e64adf963a370a873abe1d499ad82e9c46c49d051a018a46c7f62d2e4f787357 29111 Packages.gz
+ 35a36969a20716b76d5c8637a990c411e0d89ca6f7712e4d7c5f8027abd1aa84 26722 Packages.bz2
