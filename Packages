@@ -901,6 +901,28 @@ Description: 控制中心快速启用或禁用其中一张 SIM 卡（已内置 i
 Name: CCSIM
 Author: Netskao, Huayuarc
 
+Package: com.repobvn.carbridge13-roothide
+Architecture: iphoneos-arm64e
+Version: 2.0.17K
+Section: Tweaks
+Maintainer: BvN Repo
+Installed-Size: 7176
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: debs/com.repobvn.carbridge13-roothide_2.0.17K_iphoneos-arm64e.deb
+Size: 403148
+MD5sum: 834f9e11ca1d26c261c76cb3fa8d5d75
+SHA1: ae8c3dc532f5608eb6f292e36fb8f90e495e948f
+SHA256: f9d21fa7906230eb3afb274a39f339192e16012fcc953a1b0905991ed57e878e
+SHA512: 3971eba8434890aa04f01f2f1a6a749476dfcf04a4876606cac69fa8758fd6d1b1257970f1aae347ec8610afb4c1b1c66ecb9d9bb78c7a61630d20e3b054a1ff
+Description: Open any app in CarPlay!
+Name: CarBridge VH(Roothide)
+Author: leftyfl1p <carbridge@havoc.app>
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Depiction: https://bvnrepo999.github.io/infodeb/Html/CarBridge.html
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/CarBridge.json
+
 Package: com.susudear.screencore
 Architecture: iphoneos-arm64
 Version: 2.0.3+windowscheduler.12-72
