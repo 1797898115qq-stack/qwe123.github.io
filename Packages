@@ -35,6 +35,29 @@ Name: Aemulo NFC模拟
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 
+Package: com.axs.ahsfilter
+Architecture: iphoneos-arm64
+Version: 5.2.0-3
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter-5.2.0-3-iphoneos-arm64.deb
+Size: 127922
+MD5sum: b2379298f3ec19a153ec585a3114694b
+SHA1: c71a68e0e98834807d74740a015959e48519f5be
+SHA256: 732863f22b49c6ae2832bf457af15734653d54fcdd8bfb79ed806ca372755f9a
+SHA512: 99b10ef7a71e57cd3e0c8eadb40539c326076dbdb25188f88e3020957896eff616cddcbbddf17238cb54b44c46bcf867b3324bf55d622e6a60418f29b9649954
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Name: AhsFilter
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+
 Package: com.bvn.splitnative.r2
 Architecture: iphoneos-arm64e
 Version: 1.0
