@@ -172,6 +172,24 @@ Name: OneSettings
 Sponsor: wkk
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 
+Package: com.yourepo.axs.openmask
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: B-分屏插件
+Maintainer: charlie <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/OpenMask 适配鱿鱼手势_0.0.1_iphoneos-arm64e.deb
+Size: 4956
+MD5sum: 4d8cf4ceb050349447fb4b15e2d69adb
+SHA1: 1caed920eab53a11f4065d2ae982eb8b51069fa5
+SHA256: a658e3d33e85b79c5add1dde7eecb92e7ac62218f0abbffbc2a46a29929cf70d
+SHA512: 9977ed85656cafd8755e50107127ad09c5a7f7436b9ff03c2d0589d50be44e77b5271718a33d6f02eae7dce4dcd464a9928f171702ac46ab17cabb11fd991411
+Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
+Name: OpenMask 适配鱿鱼手势
+Author: charlie <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+
 Package: com.wxhbts.powercuff.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -297,6 +315,25 @@ SHA512: 7b0161ee54a90395a95f8c13ea89497030d0fce09f1772100f8be8ff052c9c46df455922
 Description: iOS 26 style Lock Screen widgets
 Name: Soko
 Author: waruhachi
+
+Package: com.wkk.systembox
+Architecture: iphoneos-arm64e
+Version: 1.5-8end
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 2792
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.clockglass
+Filename: debs/SystemX_1.5-8end_iphoneos-arm64e.deb
+Size: 590464
+MD5sum: 016bfb79e3a0725e1eb3eb44800e66c0
+SHA1: e927abf621676da5ae2ce9f34d565684e78dd697
+SHA256: c587727b2c40f97d68918e63f6cc5ea5fe43ae019f2f286f58051120bd01953a
+SHA512: 4f54ef82c305c582bacb8cc365f6b64684f41285ae2bc55b4f8c211fbba654f5cc0a32b459853e550cab7997d4f95751b068f798e5335acad43e54b08cb54d4d
+Description: cool
+Name: SystemX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
