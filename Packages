@@ -90,6 +90,29 @@ Description: Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部�
 Name: Sileo APT/DPKG汉化
 Author: Custom
 
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1008
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/Doleo (Roothide)_1.0.2_iphoneos-arm64e.deb
+Size: 235140
+MD5sum: b1380bd3f535c6d0f4ed5b6156e7661a
+SHA1: 4960507af30d703e9fff914c4d26c0f30bad3c43
+SHA256: 336f4eba1a9674f69fc8dd747496e63a3db772a3ec087dbe5a834a639c20214a
+SHA512: e4da3c544f28ae1020296efb99b791e4974ec56c007e3e960e9b6d8fb30b6272b4ca6391227ac339e1e2a510637bab5ebbb80065e616d7fc0a4c2f4b3a6ab151
+Homepage: https://doleo.goforit.si/
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo (Roothide)
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+Tags: compatible_min::ios15.0
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
 Version: 5.0
@@ -239,6 +262,41 @@ SHA512: 4a08cdc5347ffaec3e5ba961eec81624390eb2f1dfd1e67541c314d7ad187c1be218fab9
 Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
+
+Package: com.yourepo.axs.snapper
+Architecture: iphoneos-arm64e
+Version: 5.2.0-326
+Section: System (Axs-Tweaks)
+Maintainer: Axs <qiaozhini000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Snapper3 Expand_5.2.0-326_iphoneos-arm64e.deb
+Size: 175096
+MD5sum: 7d8114f65219c4a65e3546a512efcb41
+SHA1: 589e14ce1e27b3b8deb65ea965e28780a470b942
+SHA256: d854e0636d22bae9b2a155512db7cc6222741457e501c6e036e3634ab961cd91
+SHA512: ec95f2c74e0a9de9986d1a5758e943dd1b30b688f309efa3a55bafe65f26e210ee13e0f5174caf122366fa43fb7b328aba880c251a348695522f267d6dfc094e
+Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
+Name: Snapper3 Expand
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+
+Package: moe.waru.soko
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 464
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/Soko_1.1.0_iphoneos-arm64e.deb
+Size: 55572
+MD5sum: a77a841fac0accbb39e08667fde94318
+SHA1: 654b1332037a8549c22c002bdbe3019ca1407386
+SHA256: d8d36a103d9b2c4d105c8ed430578e45c00470e8804a48455691a1d31f64d060
+SHA512: 7b0161ee54a90395a95f8c13ea89497030d0fce09f1772100f8be8ff052c9c46df45592247db4017253ad92b60016849e4536817508bba8ecc048056c5248b10
+Description: iOS 26 style Lock Screen widgets
+Name: Soko
+Author: waruhachi
 
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
@@ -1096,6 +1154,25 @@ SHA512: 02ab9895c95909858763b38c994a8f395fe0960dc6e2b4a74e475cdd802ea73e0aaef9db
 Description: 破解软件会员合集，无需依赖，不会影响系统进程，部分失效！自己打包的合集，请勿反馈，谢谢理解。红字报错请根据日志移除相关的破解插件即可，此插件只破解软件，不会破解其它插件。
 Name: 去他妈的充值会员
 Author: fuck vip <kk99588077@gmail.com>
+
+Package: com.yechen.globalfont
+Architecture: iphoneos-arm64e
+Version: 1.1.13
+Section: Tweaks
+Maintainer: yechen
+Installed-Size: 380
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 18.0), preferenceloader, mobilesubstrate | ellekit
+Filename: debs/文字深浅切换_1.1.13_iphoneos-arm64e.deb
+Size: 22032
+MD5sum: 9a55b62027c701ee58a52ee101bab76a
+SHA1: 46f2e243b92fc1b9d4d08a8ced30bcc31d7769b3
+SHA256: d3c92c44984c682410d29dae6a10192b563225cb13c08a564db543365cc8597b
+SHA512: f458da28feda1bf3698a47b909f4dbc0bbb8a5990ce1fec1f0f683dde869687cb5c074205129909a59a0463ee697401334932350dfecaff31f560c719fff04d3
+Description: 仅对桌面长按菜单、锁屏播放器和锁屏通知应用 iOS 原生深浅外观。
+Tag: role::enduser, purpose::extension, cydia::requires-respring
+Name: 文字深浅切换
+Author: 夜辰
 
 Package: com.gu.xianyupick
 Architecture: iphoneos-arm
