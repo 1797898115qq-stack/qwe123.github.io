@@ -16,6 +16,25 @@ Description: 液态玻璃
 Name: 88液态玻璃插件 1.3.8
 Author: 一刀
 
+Package: com.wkk.aemulo
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Section: 应用程序
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/Aemulo NFC模拟_1.2.5_iphoneos-arm64e.deb
+Size: 630160
+MD5sum: 2840c014e2a328ce45eecd44a059100e
+SHA1: abdae64381450ec5bd5c2891ed64e4521b3e829c
+SHA256: e69aa97b053a21e0e37dc91694b5ece476f5ad0af0c05a1414d63991d46b475e
+SHA512: e168cd3e085b8352b5d9aebf89b292902cd45f35cc361fea343782beab032596a3ebe11ca5cff4527453c778fe91d4872230753e96c99f97bace541264dce028
+Description: NFC付费App纯净砸壳。
+Name: Aemulo NFC模拟
+Author: Amy While <support@anamy.gay>
+Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
+
 Package: com.binglan.kongzhidiy
 Architecture: iphoneos-arm64e
 Version: 2.3.6-end
@@ -108,6 +127,27 @@ Description: 为苹果原生中文键盘接入本地 Rime 词库，支持 26 键
 Name: 词库桥接
 Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
 Author: wm0104
+
+Package: com.wkk.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/OneSettings_2.2_iphoneos-arm64e.deb
+Size: 225276
+MD5sum: 0267d3c91933bd00c55083918f6cea16
+SHA1: 024e799c515d7c1f40e24668d6f3f9957621d9cb
+SHA256: 663646efa7a1ba5fc649ea658e03105bb32f214fd84a3d5f42d5c26e78bc4126
+SHA512: da4908ad68fa106dcc1833e87560fcd25c33f61c5f1f00639ecb30572c23fd41061326ce56d502e29ca078b7b5ad2c0288089b2912483bb01181f066c51d119d
+Description: 插件归类，已汉化。
+Author: Nightwind
+Name: OneSettings
+Sponsor: wkk
+icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 
 Package: com.wxhbts.powercuff.roothide
 Architecture: iphoneos-arm64e
@@ -1039,6 +1079,23 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
+
+Package: com.yourepo.ok95.4
+Architecture: iphoneos-arm64e
+Version: 7.0.5
+Section: Tweaks
+Maintainer: fuck vip <kk99588077@gmail.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/去他妈的充值会员_7.0.5_iphoneos-arm64e.deb
+Size: 352888
+MD5sum: 7569c16a030dc4eda8620c137fbcb712
+SHA1: eda1acc80e3bd233cf57655a6ac394da956cb987
+SHA256: 0f1934cbc9b57043c7d79ab7d6f214a38a21291c6f21d32139b446e73f7ad677
+SHA512: 02ab9895c95909858763b38c994a8f395fe0960dc6e2b4a74e475cdd802ea73e0aaef9db3315241423e4a0d960db92c5febf13f46600223acdd906c92521f98c
+Description: 破解软件会员合集，无需依赖，不会影响系统进程，部分失效！自己打包的合集，请勿反馈，谢谢理解。红字报错请根据日志移除相关的破解插件即可，此插件只破解软件，不会破解其它插件。
+Name: 去他妈的充值会员
+Author: fuck vip <kk99588077@gmail.com>
 
 Package: com.gu.xianyupick
 Architecture: iphoneos-arm
