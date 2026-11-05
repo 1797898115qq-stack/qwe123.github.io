@@ -2099,6 +2099,46 @@ Tag: role::enduser, purpose::extension, cydia::requires-respring
 Name: 文字深浅切换
 Author: 夜辰
 
+Package: com.iosrxwy.fanqiehehe
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Priority: optional
+Section: System
+Maintainer:
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts:
+Replaces:
+Filename: debs/番茄呵呵.deb
+Size: 64014
+MD5sum: 6d642f6e9e7fc3be07fc1301c2ad7e15
+SHA1: ac87b601ace9e2a60ae2fb7a990d719f2e774398
+SHA256: fec8c97a5ba172eba223c0fd21d5fb3c05644fe03a55c40c1717de888e9b2130
+SHA512: bf6320ef87b178a51a03dbbfe50fe3b14b97561e9eede4f2ca9ec7ddd246a27be83ed161d4ca9a58e580b4ca47647028ece2c48e6bfb2a53d9df44b794d02eee
+Homepage:
+Description: 解锁番茄小说、番茄畅听、红果短剧
+Name: fanqiehehe
+Author: iosrxwy
+dev:
+Depiction:
+Icon:
+
+Package: com.xx.fqxshook
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: x✨
+Installed-Size: 268
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/番茄小说.deb
+Size: 48050
+MD5sum: 638ec517c7c4eb324907ea68442a6c19
+SHA1: aeacb613fff9deaed166a88e919e2a556e3001b4
+SHA256: 1e11bf6bc85c9071a5b186fce1ab83afd96a47e5fb030106f479594b37c14d42
+SHA512: 66436ce4608edbde7a0ad37ded6c8de73d50dd71df5a901713d4c526c76a0c6894a20055d2a0f047f8e8d97ea7886c8c5b0e5ef63aeecd99ba07427c05554842
+Description: 自用 | 去除一些可见广告 | 秒过激励视频 | 支持版本6.0.8+ | 1.0.1 新增移除底部福利板块 移除底部红点 继续移除一些又出现的新广告 & 1.0.2:修底部BUG
+Name: 番茄小说优化
+Author: x✨
+
 Package: com.local.batteryscout
 Architecture: iphoneos-arm64
 Version: 1.1.0
