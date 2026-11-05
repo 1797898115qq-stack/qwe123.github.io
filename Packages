@@ -284,6 +284,26 @@ Description: Choicy白名单 (支持iOS 15-17 roothide)
 Name: Choicy-Whitelist
 Author: crctdd
 
+Package: com.Axs.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6868
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault,cn.octoforce.copyvault
+Filename: debs/CopyVault 鱿鱼剪贴板-1.9.0-1-iphoneos-arm64.deb
+Size: 1851480
+MD5sum: addc3c9f68aaba62f8ddcf65d08be19a
+SHA1: 54c7197eec177512c06ae5e30225dabaad70643f
+SHA256: 3822f1c66dae2a23bff392d1f7d8f23c50349f3bf1ca9153d821eff825201559
+SHA512: 6ebd9c4cdd84c02747075ff15e323e1d161d5617abb8c60a10d1c6aadf9831adbbf50b9e4afd0afa3d7b01561301045b086f2e9ba907168088554c63e54dd838
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！ [本包已内嵌 CCrack：安装后自动生成离线授权，无需激活码。CCrack 仅注入 SpringBoard。]
+Name: CopyVault 鱿鱼剪贴板
+Author: SquidForce, Backup
+Icon: https://axs66.github.io/pro/icon/copyvault.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/copyvault/js.json
+
 Package: com.sini921.cozybadges
 Architecture: iphoneos-arm64e
 Version: 2.2-4
@@ -383,6 +403,30 @@ Author: gilshahar7, SquidForce
 Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
 
+Package: com.Axs.floating-view
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Section: 分屏插件
+Maintainer: Axs
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/Fv分屏破解版-1.6.0-6-iphoneos-arm64.deb
+Size: 652884
+MD5sum: 8b189bdfd446b1daf9e1faeaa2c9973b
+SHA1: 3f6981bfb23facfabba513b1d913dfb85a2a825c
+SHA256: f5b61f406f02a3769a8d25ce500ebccc9408a7730979047b17c6a711b2ceed4c
+SHA512: a8cc45cd3d463116e9836ee42bbd1473362d5d306ea8ef93945f8fa2c02a3b612c584315f02a1595ce2f6924d74caaaff0353fca910727a7bdd712a07880ecda
+Description: 温馨提示:
+  * 1、仅供个人备份与学习研究使用。
+  * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
+  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
+  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
+  * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
+Name: Fv分屏破解版
+Author: be-huge
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-6
@@ -443,6 +487,44 @@ Description: 为苹果原生中文键盘接入本地 Rime 词库，支持 26 键
 Name: 词库桥接
 Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
 Author: wm0104
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/MemTrim-0.0.3-iphoneos-arm64.deb
+Size: 69404
+MD5sum: a3434f345f6e61ec137f7b4f28a68a1b
+SHA1: c4a27f61211da6f09597b4fec94e05c0ad6638de
+SHA256: d662888ec2903588ee7f4cbb3f4581e5ebaae3a87ce2931aedf46bb551c1136c
+SHA512: a73e3eabeac3872d69a020bb397f9933362272d12665203f3a6d462bea98d972027ed25fd41bb2a6740c369686be360f2e9b9a7a40a212f417d921a8f7324210
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+icon: https://huayuarc.github.io/icon/memtrim.png
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/MemTrim-0.0.3-iphoneos-arm64e.deb
+Size: 54516
+MD5sum: 98c93b8f7480366ea2e9b4bfc334fdae
+SHA1: 6edf75e16c44e781456047b0435b5dfc2f862019
+SHA256: d5f16776c58e49cbdca0f3c4077b262be39e0ad5f6b4cb0854ac3f44f2438106
+SHA512: d45b0d8e037f2d1371866597d9818c66bd7c2c5e7c27f1a5fe04211db4c68e7d12f2a2e2bc0b0802adb8732bd7c651c2a247d2f2698b6d7716d74cccead51677
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+icon: https://huayuarc.github.io/icon/memtrim.png
 
 Package: com.wkk.onesettings
 Architecture: iphoneos-arm64e
@@ -777,6 +859,23 @@ Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开�
 Name: TrollOpen
 Author: Charlie Leung
 
+Package: zone.uni9k.umount
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Tweaks
+Maintainer: uni9k
+Installed-Size: 4964
+Filename: debs/UMount 挂载器-1.3.0-iphoneos-arm64e.deb
+Size: 1613428
+MD5sum: 4281e22a42df03a2aec73a6439fda9d1
+SHA1: 53e120b9bfadc4084540633115e1b759eb4571a5
+SHA256: e4146710fbae4f9e0f33fb3ccc3b61c6376074e8ab4b73b2d8609e0f86354c6b
+SHA512: 2fd357974df93522867bc1af32ed2ab0dc4edb109eec302775bc1facb1e84f6cf9b42cd3a39b34d6253a79ca28971de262bd32b65e84aa9d9529486544eea075
+Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.Relaxin / RootHide的原生SwiftUI系统目录绑定安装管理器，具有内核ucred回退、诊断、RootHide安全模式门控和引导循环保护。
+Name: UMount 挂载器
+Author: uni9k
+icon: https://huayuarc.github.io/icon/UMount.png
+
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
 Version: 3.0-2
@@ -841,6 +940,28 @@ Author: Brend0n <brendonjkding@126.com>
 Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
 SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.volumemixer/depiction.json
+
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64
+Version: 5.2.0-8
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ZZFilter-5.2.0-8-iphoneos-arm64.deb
+Size: 63778
+MD5sum: 392a4d7a772fd251206f2fabd853c3f5
+SHA1: 978f82fd672bb85c3e151567387cab4866f4db70
+SHA256: 2a646a8a325d06950b936af43eff2a7df1450afc86843675fd51a091aebdffe8
+SHA512: 55326a28d86d8892fa36e0b4d57f6544948c310d609ec8577303dcf9f33e9d22c9de20360e32d38f1ad2effb781fe5ce352f69932c83e2a9e93f3544348307d0
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: ZZFilter
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
 Package: zp.aemuloqs.rootless
 Architecture: iphoneos-arm64e
@@ -1847,6 +1968,23 @@ SHA512: 02ab9895c95909858763b38c994a8f395fe0960dc6e2b4a74e475cdd802ea73e0aaef9db
 Description: 破解软件会员合集，无需依赖，不会影响系统进程，部分失效！自己打包的合集，请勿反馈，谢谢理解。红字报错请根据日志移除相关的破解插件即可，此插件只破解软件，不会破解其它插件。
 Name: 去他妈的充值会员
 Author: fuck vip <kk99588077@gmail.com>
+
+Package: com.netskao.wcdisablehotupdates
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/微信禁用热更新-1.1-5-iphoneos-arm64e.deb
+Size: 2272
+MD5sum: 642884c288ef5892b2fd801b753e021f
+SHA1: 4209bb58961c2c9ea276e9b04acba9b759c8d0cc
+SHA256: 71eae594233862d957ff72984c398cad9037a944a556bf76e933179e9782d73e
+SHA512: 3dee91611fa9ed18845afc24928cf809fc6b1ac4201c82d825926deeb8d5d14f634152e709589934d40f4b9f51e3de7a9960e57c8f0cbfb3d0ecaa3e05ebcd81
+Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
+Name: 微信禁用热更新
+Author: Netskao
 
 Package: com.yechen.globalfont
 Architecture: iphoneos-arm64e
