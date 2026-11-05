@@ -177,6 +177,40 @@ Name: 曾牛-分屏🐮
 Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
 Author: ZengNiu
 
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.6_iphoneos-arm64.deb
+Size: 86170
+MD5sum: 2f9e1fc77daa6852e501785d1e879934
+SHA1: 554d9d25bab72090b5eebe73f376d87f28b9ccfb
+SHA256: dfdcb62da27d41e48cbe606454d49f5656c64b9259f3a18190ca27c034fb96d2
+SHA512: 07ed841f4cc0b0e133aeb8d455c6eddd67161be9a539abdd13a91bd0211926acc8afe46d1be8094d4f2571016923400a11f658bac98415c05ac9e3a576701a13
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 247
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.6_iphoneos-arm64e(1).deb
+Size: 70146
+MD5sum: ed86273067c1fa6f06a46d202fab00ca
+SHA1: 09db3de04e23046afb0da6ea3ea3aec6d7323d16
+SHA256: 70d71f5a857216c004412bc539f6c653456f266ddaa14077cad18aba9174a06b
+SHA512: d23594b5208093cff9efc1ae1d0eebfc6d898e3e71f2649e5dada09bbdb5075335cca809181c23679d9a1f2a05ef4c13351b2f4d6d78cd6e6ee912676af216e7
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
