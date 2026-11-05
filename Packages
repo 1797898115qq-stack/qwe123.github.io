@@ -310,6 +310,29 @@ Author: gilshahar7, SquidForce
 Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
 
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 6284
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello 120Hz_3.3.3-6_iphoneos-arm64e.deb
+Size: 1827932
+MD5sum: 41c6605ce238c14cfa6dea31c30a22be
+SHA1: 46878dfbe97190bdc1a86b7d1bbb2183c886e616
+SHA256: 96d406db06c2a32fe5423b5a67c6429d7501afe2a0699791d66fd8a47e11c42f
+SHA512: 2e6fa5cac6e9ce117f6f6c8ae524330c88167bd15d46f0884dce1b291ff8fe94169426c35c883a52fd9d21e6f84971413bbcb71076b75e6ab22ced8dec515142
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
 Version: 5.0
@@ -624,6 +647,25 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Name: SquidExtender(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/SquidGesturePro(激活码)_2.7.6-1_iphoneos-arm64e.deb
+Size: 1787756
+MD5sum: 7ac7467dc2fffc77f05f88bb34fb3799
+SHA1: e62731709a09b1d54b0f5bf870582228189615fe
+SHA256: b958591086686c95f6bfcd57163c3c451aa38ffa0cd7fab12a998a720b35c4bf
+SHA512: 3e1316a7b5adfb042061cbc739f26048802114a9a385c09755a5d5e104b5c50771e1e215e37b7f40158eb878abca407908c81879fc77b2867a4f15e6ca37bad0
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
 Package: com.wkk.systembox
 Architecture: iphoneos-arm64e
