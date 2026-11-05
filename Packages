@@ -829,6 +829,40 @@ Name: aemulo自动模拟 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
 
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64
+Version: 4.2
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3644
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.touchvis_4.2_iphoneos-arm64.deb
+Size: 729358
+MD5sum: 4ae937680595c18a17e205aa36b2dfd3
+SHA1: f80be4036565dda5f39c8d19713c12a6190e4a3c
+SHA256: d8446ae9362f912a02f653f12907049b7fa2670afe0a5c44c2e3c9194d5e7513
+SHA512: 3d85276d843c9eabb805dcaf1bde55fd8e4a705e7b4258d5a0374126aeae366511e1bf988f6b38c8c00f2caebc0e681c97c0149f3bf4adc67787b16338711e85
+Description: Display your touch interactions!
+Name: Touch-Viz
+Author: Lessica <82flex@gmail.com>
+
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64e
+Version: 4.2
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3864
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.touchvis_4.2_iphoneos-arm64e.deb
+Size: 884710
+MD5sum: 75187ab6b21352ab69f10d8897bd74d5
+SHA1: dd905f0e919c62af7e0302c78c820b1b57d84abc
+SHA256: ca2be6a9c8515639945abd15b6ddeec33d838fb724d61d880524da160fcfe130
+SHA512: 29bce58fce2dfc47e11bb7ba71de7076ff2e0349b90ca503842aadd68e36c6fa33b03c04341009727c7bfd183dab45c473d6493073e0d92af2f6be819696e1d9
+Description: Display your touch interactions!
+Name: Touch-Viz
+Author: Lessica <82flex@gmail.com>
+
 Package: com.mowang.neicunyouhua
 Architecture: iphoneos-arm64
 Version: 0.1.6
