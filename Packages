@@ -51,6 +51,25 @@ Name: 词库桥接
 Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
 Author: wm0104
 
+Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Snapper 3_1.2.1_iphoneos-arm64e.deb
+Size: 1265604
+MD5sum: abc5abec51fbd5ea7e0d5bf5ec018069
+SHA1: 14a19bb9fe0bced0a113d3584d981866cd6d035a
+SHA256: 10f5ea785cb2ff174c135a777496c87479b20d59623ccbe65be104ed90d28014
+SHA512: 4a08cdc5347ffaec3e5ba961eec81624390eb2f1dfd1e67541c314d7ad187c1be218fab99f0340bbf7650d70bf1e343d34a2a5ddb8aa65e914018b0a6c0271a0
+Description: Pin screenshots on the screen.
+Name: Snapper 3
+Author: Jonathan Winger-lang
+
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
 Version: 3.0-2
