@@ -135,6 +135,24 @@ Description: AppTools for iOS15-17 Roothide
 Name: AppTools15-17(Roothide)
 Author: aReo
 
+Package: com.dao.apptools15
+Architecture: iphoneos-arm64e
+Version: 2.9.1
+Section: 嗨-付费
+Maintainer: aReo
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
+Filename: debs/AppTools15-17_2.9.1_crack (1).deb
+Size: 2386688
+MD5sum: f4fe21ce0d538cf3cfe547a6b67b5e3e
+SHA1: 6c3d0035e55aa21c30383018debd56ef501241bf
+SHA256: f0dc76517fc48060524cbe92bef8a5d327a3970d401b6324093c53d969a87d6d
+SHA512: 15ca14e196ade8e165593b9b073971906defd7f8582756dce5633dd4fc529b25d68840f30890eba789d8f831406c4cfb63272fe55d324043159d9b4805403175
+Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Name: AppTools15-17(RootHide)
+Author: aReo
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
 Package: com.anthopak.appaze3
 Architecture: iphoneos-arm64e
 Version: 1.0.1
@@ -1034,6 +1052,24 @@ Description: Display your touch interactions!
 Name: Touch-Viz
 Author: Lessica <82flex@gmail.com>
 
+Package: com.dao.apptools15
+Architecture: iphoneos-arm64e
+Version: 2.9.2
+Section: 嗨-付费
+Maintainer: aReo
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
+Filename: debs/com.dao.apptools15_2.9.2_iphoneos-arm64e.deb
+Size: 2388800
+MD5sum: 4b4daafd02f37b6202a6623a13826f83
+SHA1: ab41f9dc8b47547bf3000dfa2b7d0ef847bc8271
+SHA256: e3ea2fe7152138019ea7020075513058783a98bf683f917dd7efa84bd87b3444
+SHA512: 5bcd67ee33887615e134e9ed60381c46c1435af947489a5972b854bf17e68c0f047682a367700987e7a8fc3a9423d5e21d865dcb85f2cbab97d785bd49ae9866
+Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Name: AppTools15-17(RootHide)
+Author: aReo
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
 Package: com.mowang.neicunyouhua
 Architecture: iphoneos-arm64
 Version: 0.1.6
@@ -1894,6 +1930,26 @@ Description: 解除温控，一切从简即可。支持命令行切换模式：i
 Name: insulation
 Author: be-huge & doimty
 
+Package: local.fuguang.ai
+Architecture: iphoneos-arm64e
+Version: 0.6.7-1
+Section: Applications
+Maintainer: Fuguang
+Installed-Size: 1034
+Provides: local.fuguang.overlay (= 0.6.7-1)
+Depends: firmware (>= 15.0), uikittools, mobilesubstrate
+Conflicts: local.fuguang.overlay
+Replaces: local.fuguang.overlay
+Filename: debs/local.fuguang.ai_0.6.7-1_iphoneos-arm64e.deb
+Size: 299648
+MD5sum: ddac121f52f3461586969567e7a16189
+SHA1: 5df1e7a6c8378dc42f83a12d3b3bb55711442d41
+SHA256: a08406fcb5f23e8c35d48e99dad4236dc174f4de9a12942b88667e894f70cffc
+SHA512: df7433b21e9afb0986f9d729456f32b7830a30e805a003e6f6293a50a5e79b81132d5a30678d9af546f2b4178eba74a0b0b1112e8a757dce9805f5fcfa46c413
+Description: DeepSeek chat and experimental SpringBoard overlay for Dopamine RootHide.
+Name: 浮光 AI（含悬浮窗口）
+Author: Fuguang
+
 Package: com.roothide.lockdown
 Architecture: iphoneos-arm64e
 Version: 2.0
@@ -1951,6 +2007,26 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/js.json
 icon: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/icon.png
+
+Package: com.rein.keygen
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Utilities
+Maintainer: Rein
+Installed-Size: 232
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/动态岛激活码生成器.deb
+Size: 100734
+MD5sum: 83a1bb5f77342badeb50dadd63c8b70b
+SHA1: 55f706669749d9190823cd9de4526d5b98649a71
+SHA256: b90857a8591070caf98414b082b4148e65043ed951d0b731ec791c0ff6d11246
+SHA512: bccd8ca2544f597f7888f09ee29ab528daa1036c2b8fc747064bddbe8e9be642d522e1900ef59aaa30d7ca3bccb411858976b3a86d91b1060458d98dc7ff45af
+Description: ios16dao 激活码生成器（离线 App 版）。
+ 输入 12 位设备码，生成 18 位激活码，支持一键复制；算法与页面完全内置，
+ 不联网、不注入任何进程。
+Name: Rein 激活码生成器
+Author: Rein
 
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
@@ -2072,6 +2148,23 @@ Section: Tweaks
 Maintainer: 故
 Depends: mobilesubstrate
 Filename: debs/闲鱼捡漏-1.9.1-unlocked.deb
+Size: 153346
+MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
+SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
+SHA256: e60874e71d94f8fa4d1b28d5dd5bd7e0d947ec76dcceff3aab39b6b511941120
+SHA512: dd4574c8df726dacf22988d9defbbdf7ca8633b796398b41215d4713ca945feadaed1004928bd068be5a556b54e6b704d0f1170e8fb8b3cb9f76f8c44f4b15bd
+Homepage: https://t.me/zakadeep_bot
+Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
+Name: 闲鱼捡漏
+Author: 故
+
+Package: com.gu.xianyupick
+Architecture: iphoneos-arm
+Version: 1.9.1
+Section: Tweaks
+Maintainer: 故
+Depends: mobilesubstrate
+Filename: debs/闲鱼捡漏-已解锁卡密授权验证.deb
 Size: 153346
 MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
 SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
